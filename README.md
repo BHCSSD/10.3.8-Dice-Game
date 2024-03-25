@@ -1,6 +1,7 @@
 # 10.3.8-Dice-Game
 
 **Note that this assignment has a visual mark.**
+
 Choose font and text sized thoughtfully.  Align your components carefully. Make it look professional! 
 
 The rules to this casino game are simple.  The player rolls a die; the casino rolls a die.  The higher number wins.  If it is a tie, the player wins big!  You might want to open the NumberGuess game example to remind you about comparing a random number to a user’s number.
