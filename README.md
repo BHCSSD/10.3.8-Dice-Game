@@ -4,7 +4,7 @@
 
 Choose font and text size thoughtfully.  Align your components carefully. Make it look professional! 
 
-The rules of this casino game are simple.  The player rolls a die; the casino rolls a die.  The higher number wins.  If it is a tie, the player wins big!  You might want to open the NumberGuess game example to remind you about comparing a random number to a user’s number.
+The rules of this casino game are simple. The player rolls a die; the casino rolls a die.  The higher number wins.  If it is a tie, the player wins big! You might want to open the NumberGuess game example to remind you about comparing a random number to a user’s number.
 
 ## Setting up your file
 Set up 8 variables:
@@ -37,17 +37,18 @@ Set up 8 variables:
 
 
 ## Basic Game Play Using the KeyPressed Function
+**Hint fill your variables in `keyPressed`, do not display any information from there**
 1. When the `c` key is pressed:
-  - randomly generate a number for the casino between 1 and six as shown below.
-    - `casinoroll = round(  random(1,7) ) ;`     
-  - You need to round so your `IF` statements will work below
+ 	 - randomly generate a number for the casino between 1 and 6 as shown below.
+   	 	- `casinoroll = round(  random(1,7) ) ;`     
+	  - You need to round so your `IF` statements will work below
 
 2. When the `p` key is pressed
   - repeat the above for the player
 
 3. When the `w` key is pressed, use a 3-part if… else if… statement so that you tell the user:
   - the casino wins if its number is higher
-  - the player wins if his/her number is higher
+  - the player wins if their number is higher
   - the player wins a million dollars if it is a tie
 
 4. in the screen, the text is aligned inconsistently, etc.
