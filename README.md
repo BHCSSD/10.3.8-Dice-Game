@@ -27,7 +27,7 @@ Set up 8 variables:
 2. Add text that says Casino’s Roll:  and Player’s Roll: 
 3. Draw squares beside each of the above labels that are big enough to hold the pictures (perhaps 200x200).  When you first start, these squares will be empty.  The pictures will go in the boxes once the keys are pressed.
 4. Using **TWO** 6-part if statements, draw the proper die image for each player. However, because your dice are both zero to start, no image should be drawn YET.
- ```
+ ```javaScript
  if (casinoroll==1) {
     image(die1,            )
       } else if (casinoroll==2){
@@ -40,8 +40,8 @@ Set up 8 variables:
 **Hint fill your variables in `keyPressed`, do not display any information from there**
 1. When the `c` key is pressed:
  	 - randomly generate a number for the casino between 1 and 6 as shown below.
-   	 	- `casinoroll = round(  random(1,7) ) ;`     
-	  - You need to round so your `IF` statements will work below
+   	 	- `casinoroll = floor(  random(1,7) ) ;`     
+	  - You need to round down with `floor()` so your `IF` statements will work below
 
 2. When the `p` key is pressed
   - repeat the above for the player
