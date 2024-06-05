@@ -7,6 +7,7 @@ Choose font and text size thoughtfully.  Align your components carefully. Make i
 The rules of this casino game are simple. The player rolls a die; the casino rolls a die.  The higher number wins.  If it is a tie, the player wins big! You might want to open the NumberGuess game example to remind you about comparing a random number to a user’s number.
 
 ## Setting up your file
+**download the dice images from above**
 Set up 8 variables:
   - 6 to hold the dice pictures
   - 1 for the casino’s roll, set to zero to start
